@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="Background.css">
+	<title>Contact</title>
+</head>
+
+<body>
+	<div style="background-color:#f1f1f1;padding:15px;">
+		<h1> <b> CONTACT</b></h1>
+	</div>
+	<hr>
+
+	<ul class="U1">
+
+		<div style="background-color:#f1f1f1;padding:15px;">
+			<h2>Contact Form</h2>
+		</div>
+		<form action="SOME.php" method="get" autocomplete="on" style="font-size: 20px  ">
+
+			<table class="U1" align="left" cellpadding="10px" cellspacing="20px">
+				<tr>
+					<th>Name</th>
+					<td><input required="required" type="text" name="Username"></td>
+				</tr>
+				<tr>
+					<th>Email</th>
+					<td><input required="required" type="email" name="Email"></td>
+				</tr>
+				<tr>
+					<th>Gender</th>
+					<td><input required="required" type="Radio" name="Gender">Male<input type="Radio"
+							name="Gender">female</td>
+				</tr>
+				<tr>
+					<th>Languages</th>
+					<td><input type="Checkbox" name="C1">HTML
+						<input type="Checkbox" name="C2">CSS
+						<input type="Checkbox" name="C3">Ajax
+						<input type="Checkbox" name="C4">Javascript
+					</td>
+				</tr>
+				<tr>
+					<th>City</th>
+					<td><select>
+							<option>Delhi</option>
+							<option>Madhya Pradesh</option>
+							<option>Bihar</option>
+							<option>Uttar Pradesh</option>
+							<option>Other</option>
+						</select></td>
+				</tr>
+				<tr>
+					<th>Mobile number</th>
+					<td><input required="required" type="digits" name="number" maxlength="10"></td>
+				</tr>
+				<tr>
+					<th>Message</th>
+					<td><input type="text" size="500" name="Message" maxlength="500"
+							style="width: 200px ; height: 50px;"></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="Submit" value="Submit">
+						<input type="Reset">
+					</td>
+				</tr>
+			</table>
+
+		</form>
+
+</body>
+
+</html>
